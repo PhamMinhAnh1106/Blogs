@@ -38,7 +38,7 @@ if (isset($_GET['id'])) {
             <?php if (isset($_SESSION['user_is_admin'])) : ?>
             <div class="form__control inline">
                 <input type="checkbox" id="is_featured" name="is_featured" value="1" checked>
-                <label for="is_featured">Featured</label>
+                <label for="is_featured">Nổi bật</label>
             </div>
             <?php endif ?>
 
@@ -47,7 +47,7 @@ if (isset($_GET['id'])) {
 
             <!-- Thay đổi ảnh thumbnail -->
             <div class="form__control">
-                <label for="thumbnail">Change Thumbnail</label>
+                <label for="thumbnail">Đổi ảnh</label>
                 <input type="file" name="thumbnail" id="thumbnail">
             </div>
 

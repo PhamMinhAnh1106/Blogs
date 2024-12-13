@@ -5,7 +5,7 @@ if(isset($_POST['submit'])){
     $author_id = $_SESSION['user-id'];
     $title = htmlspecialchars($_POST['title'], ENT_QUOTES, 'UTF-8');
     $body = htmlspecialchars($_POST['body'], ENT_QUOTES, 'UTF-8');
-    $category_id = htmlspecialchars($_POST['category_id'], ENT_QUOTES, 'UTF-8');
+    $category_id = filter_var($_POST['category_id'], FILTER_SANITIZE_NUMBER_INT);
     $is_featured = htmlspecialchars($_POST['is_featured'], ENT_QUOTES, 'UTF-8');
     $thumbnail = $_FILES['thumbnail'];
 
