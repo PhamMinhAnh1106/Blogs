@@ -34,11 +34,6 @@ if (isset($_GET['id'])) {
 
 <section class="singlepost">
     <div class="container singlepost__container">
-
-        <h2>
-            <?= htmlspecialchars($post['title']) ?>
-        </h2>
-
         <div class="post__author">
             <div class="post__author-avatar">
                 <img src="./images/<?= htmlspecialchars($author['avatar']) ?>">

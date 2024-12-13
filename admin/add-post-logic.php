@@ -3,10 +3,10 @@ require "config/database.php";
 
 if(isset($_POST['submit'])){
     $author_id = $_SESSION['user-id'];
-    $title = filter_var($_POST['title'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-    $body = filter_var($_POST['body'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-    $category_id = filter_var($_POST['category_id'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-    $is_featured = filter_var($_POST['is_featured'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+    $title = htmlspecialchars($_POST['title'], ENT_QUOTES, 'UTF-8');
+    $body = htmlspecialchars($_POST['body'], ENT_QUOTES, 'UTF-8');
+    $category_id = htmlspecialchars($_POST['category_id'], ENT_QUOTES, 'UTF-8');
+    $is_featured = htmlspecialchars($_POST['is_featured'], ENT_QUOTES, 'UTF-8');
     $thumbnail = $_FILES['thumbnail'];
 
     // Đặt giá trị is_featured bằng 0 nếu không được chọn
