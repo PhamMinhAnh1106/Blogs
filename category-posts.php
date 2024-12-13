@@ -26,7 +26,8 @@ if (isset($_GET['id'])) {
   $stmt->execute(['id' => $id]);
   $category = $stmt->fetch(PDO::FETCH_ASSOC);
   ?>
-  <h2><?= htmlspecialchars($category['title']) ?></h2> <!-- Hiển thị tên danh mục -->
+  <h2><?= htmlspecialchars(html_entity_decode($category['title']), ENT_QUOTES, 'UTF-8') ?>
+  </h2> <!-- Hiển thị tên danh mục -->
 </header>
 
 <?php if (!empty($posts)): ?> <!-- Kiểm tra xem có bài viết nào không -->
@@ -98,7 +99,8 @@ if (isset($_GET['id'])) {
     ?>
     <?php foreach ($all_categories as $category): ?>
       <a href="<?= ROOT_URL ?>category-posts.php?id=<?= $category['id'] ?>"
-        class="category__button"><?= htmlspecialchars($category['title']) ?></a>
+        class="category__button"><?= htmlspecialchars(html_entity_decode($category['title']), ENT_QUOTES, 'UTF-8') ?>
+        </a>
     <?php endforeach ?>
   </div>
 </section>
