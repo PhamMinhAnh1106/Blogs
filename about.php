@@ -7,6 +7,8 @@ include 'partials/header.php'
     <div style="background-image: url(http://localhost/Blogs/images/footer-bg.jpg);">
         <div class="site-inner">
             <h1>ABOUT US</h1>
+            <div style="border: 1px solid gray;"></div>
+            <br>
             <div class="container2 Bg-Block">
                 <div class="content-left">
                     <h3>About Us.<br>
@@ -21,11 +23,9 @@ include 'partials/header.php'
                 </div>
 
             </div>
+          
             <br>
-            <div style="border-radius: 20px; overflow: hidden;">
-                <img src="http://localhost/Blogs/images/tw.jpg" alt="">
-            </div>
-            <br>
+           
             <div class="container2 Bg-Block">
                 <h2 style="color: white;">
                     Our Journey.
@@ -36,6 +36,9 @@ include 'partials/header.php'
                     nhiều thử thách, từ các vấn đề kỹ thuật đến các bài toán thiết kế, và mỗi khó khăn đã làm chúng tôi mạnh mẽ và
                     kiên cường hơn.</p>
             </div>
+            <br>
+            <h1>OUR TEAM</h1>
+            <div style="border: 1px solid gray;"></div>
             <br>
             <table>
                 <tr>
