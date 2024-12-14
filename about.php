@@ -55,6 +55,11 @@ Lớp: D21_TH05
 Vai trò: Thiết kế giao diện người dùng và
 Xây dựng kiến trúc trang Web, tìm kiếm công nghệ Web.
                                 </pre>
+                                <div class="footer__socials" style="margin-bottom: 1rem;">
+        <a href="https://www.linkedin.com/in/phamminhanh1106/" target="_blank"><i class="uil uil-linkedin"></i></a> 
+        <a href="https://github.com/PhamMinhAnh1106" target="_blank"><i class="uil uil-github"></i></a> 
+        <a href="https://www.facebook.com/pmanh116" target="_blank"><i class="uil uil-facebook-f"></i></a> 
+    </div>
                             </h3>
                         </div>
                     </td>
@@ -73,11 +78,16 @@ Lớp: D21_TH05
 Vai trò: Sáng tạo, lên ý tưởng, xây dựng
 nội dung và giao diện người dùng, tìm kiếm mẫu.
                                 </pre>
+                                <div class="footer__socials" style="margin-bottom: 1rem;">
+        <a href="https://www.linkedin.com/in/phamminhanh1106/" target="_blank"><i class="uil uil-linkedin"></i></a> 
+        <a href="https://github.com/vanhuy270623" target="_blank"><i class="uil uil-github"></i></a> 
+        <a href="https://www.facebook.com/vanhuy2706" target="_blank"><i class="uil uil-facebook-f"></i></a> 
+    </div>
                             </h3>
                         </div>
                     </td>
                     <td style="position: relative;width: 300px; height: 400px;">
-                        <img src="http://localhost/Blogs/images/VH.jpg" style="box-shadow: 0 0 100px 5px rgb(180, 178, 178);border-radius: 10%;">
+                        <img src="http://localhost/Blogs/images/1734078435VH.jpg" style="box-shadow: 0 0 100px 5px rgb(180, 178, 178);border-radius: 10%;">
                     </td>
                 </tr>
             </table>

@@ -1,10 +1,9 @@
 
 <footer>
     <div class="footer__socials">
-        <a href="_blank" target="_blank"><i class="uil uil-youtube"></i></a>
-        <a href="_blank/" target="_blank"><i class="uil uil-instagram-alt"></i></a>
-        <a href="_blank" target="_blank"><i class="uil uil-linkedin"></i></a> 
-        <a href="" target="_blank"><i class="uil uil-facebook-f"></i></a> 
+        <a href="https://www.linkedin.com/in/phamminhanh1106/" target="_blank"><i class="uil uil-linkedin"></i></a> 
+        <a href="https://github.com/PhamMinhAnh1106" target="_blank"><i class="uil uil-github"></i></a> 
+        <a href="https://www.facebook.com/pmanh116" target="_blank"><i class="uil uil-facebook-f"></i></a> 
     </div>
     <div class="container footer__container">
         <article>

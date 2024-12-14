@@ -250,12 +250,7 @@ nav button {
 /* END FEATURED */
 
 /* START POSTS */
-.lichsupage{
-  display: grid;
-  background-color: rgb(94, 93, 93);
-  padding-left: 60px;
-  padding-right: 60px;
-}
+
 
 .posts__container {
   display: grid;
@@ -559,16 +554,23 @@ footer ul a:hover {
 }
 /* END CATEGORY POSTS */
 
-/* START EMPTY PAGES */
-.empty__page {
+/* START SIMPLE PAGES */
+.simple__page {
   /* height: 70vh; */
   display: block;
   place-content: start;
   padding-top: 50px;
   padding-left: 50px;
+  padding-right: 50px;
   padding-bottom: 10px;
 }
-/* END EMPTY PAGES */
+
+.lichsupage{
+  display: grid;
+  background-color: rgb(32, 32, 32);
+  padding-right: 60px;
+}
+/* END SIMPLE PAGES */
 
 /* START GENERAL FORM */
 .form__section {

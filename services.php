@@ -2,8 +2,8 @@
 <?php
 include 'partials/header.php';
 ?>
-<div class="lichsupage">
-<section class="empty__page ">
+<div class="lichsupage" style="color: white;">
+<section class="simple__page">
     
 <?php
 
