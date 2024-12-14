@@ -112,7 +112,6 @@ if (isset($_SESSION['user-id'])) {
             <ul class="nav__items">
                 <li><a href="<?= ROOT_URL ?>blog.php" class="nav-bar-tilte-hover">Bài Viết</a></li>
                 <li><a href="<?= ROOT_URL ?>services.php" class="nav-bar-tilte-hover">Lịch Sử</a></li>
-                <li><a href="<?= ROOT_URL ?>contact.php" class="nav-bar-tilte-hover">Liên Hệ</a></li>
                 <li><a href="<?= ROOT_URL ?>about.php" class="nav-bar-tilte-hover">About Us</a></li>
                 <?php if (isset($_SESSION['user-id'])) : ?>
 
