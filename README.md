@@ -12,6 +12,7 @@
 ![image](https://github.com/user-attachments/assets/5542323d-237a-4e26-8f6b-ad0b55ea6ed9)
 ![image](https://github.com/user-attachments/assets/99daab7c-f5f5-4c79-a4ad-018dde41dc15)
 ![image](https://github.com/user-attachments/assets/a7fb4c57-4e5b-47c1-8f60-37ace7d29e8f)
+![image](https://github.com/user-attachments/assets/a4e777cd-507d-49a1-aad1-ec1c499f3361)
 
 ## 📌 Tính năng chính
 - ✅ **Quản lý bài viết** (Thêm, sửa, xóa, tìm kiếm bài viết)
