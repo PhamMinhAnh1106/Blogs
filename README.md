@@ -1,6 +1,6 @@
 # 🚀 ĐỒ ÁN: WEBSITE VIẾT BLOG - PHP
 - Thành viên: 2 người (Phạm Minh Anh - Leader, Nguyễn Văn Huy - Member)
-- Đây là một hệ thống viết blog về các tác phẩm ảnh được phát triển bằng **PHP & MySQL**. Dự án hỗ trợ người dùng đăng bài, chỉnh sửa, xóa bài viết và phân quyền user. Ngoài ra, hệ thống tích hợp chức năng mua ảnh trên bài viết thông qua ví **MoMo**.
+- Đây là một hệ thống viết blog về các tác phẩm ảnh được phát triển bằng PHP và dùng PDO để kết nối đến MySQL. Dự án hỗ trợ người dùng đăng bài, chỉnh sửa, xóa bài viết và phân quyền user. Ngoài ra, hệ thống tích hợp chức năng mua ảnh trên bài viết thông qua ví **MoMo**.
 
 # 🌟 Hệ thống Website Viết Blog
 ![image](https://github.com/user-attachments/assets/9a4967f4-67f3-41d7-8c29-49975c93440c)
